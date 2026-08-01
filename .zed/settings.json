@@ -14,6 +14,7 @@
   },
   "languages": {
     "JavaScript": {
+      "language_servers": ["typescript-ls", "!vtsls", "!typescript-language-server", "..."],
       "prettier": { "allowed": false },
       "formatter": [{ "language_server": { "name": "oxfmt" } }],
       "code_actions_on_format": {
@@ -23,7 +24,7 @@
       }
     },
     "TypeScript": {
-      "language_servers": ["tsgo", "!vtsls", "!typescript-language-server", "..."],
+      "language_servers": ["typescript-ls", "!vtsls", "!typescript-language-server", "..."],
       "prettier": { "allowed": false },
       "formatter": [{ "language_server": { "name": "oxfmt" } }],
       "code_actions_on_format": {
@@ -33,7 +34,7 @@
       }
     },
     "TSX": {
-      "language_servers": ["tsgo", "!vtsls", "!typescript-language-server", "..."],
+      "language_servers": ["typescript-ls", "!vtsls", "!typescript-language-server", "..."],
       "prettier": { "allowed": false },
       "formatter": [{ "language_server": { "name": "oxfmt" } }],
       "code_actions_on_format": {
